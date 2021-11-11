@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50vh;
+    width: 50%;
+    background-color: rgb(203, 133, 231);
+}
+
+#profile{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: rgb(210, 236, 183);
+    object-position: top;
+    object-fit: cover;
+    overflow: hidden;
+}
+img{
+    height: 100%;
+    width: 100%;
+
+}
+
+#nme{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#qte{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nxt{
+    padding: 10px;
+}
